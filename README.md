@@ -9,8 +9,8 @@ funcionar si se cambia el link de descarga al dataset que se quiera utilizar y s
 
 # Requerimientos:
 
-NodeJs:v17.6.0.
-NPM:8.3.1
+NodeJs:v17.6.0.   
+NPM:8.3.1  
 No se requiere necesariamente esas versiones pero fue programada con ellas.
 
 # Como correr el software:
@@ -35,3 +35,10 @@ No se requiere necesariamente esas versiones pero fue programada con ellas.
  + (Opcional) Se puede correr tambien usando npm start gracias a la dependencia nodemon la cual reinicia el server con cada cambio guardado.
         
         npm start
+
+# Endpoints:
+ 
+La aplicacion solo cuenta con 2 endpoints importantes.   
+
++ (/) o http://localhost:5000/ el cual solo contiene un link que redirecciona al endpoint mas importante.
++ http://localhost:5000/cajeros que contiene la aplicacion principal.
